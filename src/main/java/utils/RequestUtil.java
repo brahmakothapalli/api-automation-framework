@@ -6,7 +6,7 @@ import io.restassured.response.Response;
 
 import java.util.Map;
 
-public class Utilities {
+public class RequestUtil {
 
     public static Response postRequest(String endPoint, String payload, Map<String, String> headers){
 
